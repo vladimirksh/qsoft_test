@@ -1,0 +1,31 @@
+.profile {
+  display: flex;
+  border-left: 1px solid #EBEBF1;
+  height: 100%;
+  align-items: center;
+}
+
+.profile__user-name {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #768298;
+  margin: 0;
+  padding: 0px 10px 0px 19px;
+  text-align: center;
+}
+
+.profile__user-foto {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.profile__user-foto:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 1s ease;
+}

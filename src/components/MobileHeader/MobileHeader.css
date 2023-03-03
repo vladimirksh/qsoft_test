@@ -1,0 +1,38 @@
+.header-mobile {
+  padding: 17px 0 0;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header-mobile__navigation {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 0 21px 16px 21px;
+  border-bottom: 1px solid rgba(187, 196, 214, 1);
+}
+
+.header-mobile__logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-mobile__logo:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 1s ease;
+}
+
+.header-mobile__account-button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.header-mobile__account-button:hover {
+  opacity: 0.6;
+  transition: 1s ease;
+}
